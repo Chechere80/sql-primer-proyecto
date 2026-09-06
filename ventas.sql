@@ -3,7 +3,7 @@ CREATE TABLE ventas (
     id INT PRIMARY KEY,
     producto VARCHAR(50),
     cantidad INT,
-    precio DECIMAL(10,2)
+    precio DECIMAL(10,2),
     marca VARCHAR(50)
 );
 
